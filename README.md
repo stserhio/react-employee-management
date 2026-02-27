@@ -35,4 +35,4 @@ To run this project locally, follow these steps:
    npm start
 
    
-<img width="1076" height="819" alt="image" src="https://github.com/user-attachments/assets/aeb6dbae-1d7c-41ab-849a-60e17741e9c0" />
+<img width="600" height="460" alt="image" src="https://github.com/user-attachments/assets/aeb6dbae-1d7c-41ab-849a-60e17741e9c0" />
