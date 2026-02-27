@@ -19,7 +19,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/stserhio/react-employee-management.git](https://github.com/stserhio/react-employee-management.git)
+   git clone https://github.com/stserhio/react-employee-management.git
 
 2. Navigate to the project directory:
    ```bash
@@ -29,8 +29,10 @@ To run this project locally, follow these steps:
    ```bash
    npm install
 
+
 4. Start the development server:
    ```bash
    npm start
 
    
+<img width="1076" height="819" alt="image" src="https://github.com/user-attachments/assets/aeb6dbae-1d7c-41ab-849a-60e17741e9c0" />
