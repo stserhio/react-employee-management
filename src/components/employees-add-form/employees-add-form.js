@@ -18,13 +18,13 @@ class EmployeesAddForm extends Component {
     }
 
     onSubmit = (e) => {
-        e.preventDefault(); // 💥 предотвращаем обновление страницы
+        e.preventDefault(); // prevent page reload
         const { name, salary } = this.state;
 
         if (!name || !salary) return;
 
-        this.props.onAdd(name, salary); // вызываем метод из App.js
-        this.setState({ name: '', salary: '' }); // очищаем форму
+        this.props.onAdd(name, salary); // call method from App.js
+        this.setState({ name: '', salary: '' }); // clear the form
     }
 
     
@@ -33,26 +33,26 @@ class EmployeesAddForm extends Component {
         const {name, salary} = this.state
         return (
         <div className="app-add-form">
-            <h3>Добавьте нового сотрудника</h3>
+            <h3>Add a new employee</h3>
             <form
                 className="add-form d-flex" onSubmit={this.onSubmit}>
                     
                 <input type="text"
                     className="form-control new-post-label"
-                    placeholder="Как его зовут?" 
+                    placeholder="What is their name?" 
                     name="name"
                     value={name}
                     onChange={this.onValueChange}/>
                 <input type="number"
                     className="form-control new-post-label"
-                    placeholder="З/П в $?" 
+                    placeholder="Salary in $?" 
                     name="salary"
                     value={salary}
                     onChange={this.onValueChange}/>
                     
 
                 <button type="submit"
-                        className="btn btn-outline-light">Добавить</button>
+                        className="btn btn-outline-light">Add</button>
             </form>
         </div>
     )

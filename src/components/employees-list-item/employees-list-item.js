@@ -14,7 +14,7 @@ const EmployeesListItem = (props)=> {
             classNames += " increase";
         }
          if (rise) {
-            classNames += " like"; // ← добавляет класс
+            classNames += " like"; // adds a class
         }
 
         return (
