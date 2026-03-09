@@ -1,3 +1,6 @@
+
+![react-employee](https://github.com/user-attachments/assets/d0ddaef4-7e07-4853-a669-2ed0b29769b9)
+
 # 👥 Employee Management Dashboard
 
 A responsive React web application designed to manage employee records. This project was built to practice and demonstrate core React concepts, including state management, component lifecycle, and data filtering.
